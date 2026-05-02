@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Your OTP Code</title>
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        margin: 0;
+        padding: 0;
+    }
+    .email-container {
+        max-width: 600px;
+        margin: 30px auto;
+        background-color: #ffffff;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        overflow: hidden;
+    }
+    .header {
+        background-color: #004aad;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .content {
+        padding: 30px 40px;
+        color: #333333;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .decoration {
+        font-size: 20px;
+        color: #004aad;
+        font-weight: bold;
+    }
+    .footer {
+        background-color: #f0f0f0;
+        color: #777777;
+        padding: 15px 40px;
+        font-size: 14px;
+        text-align: center;
+        border-top: 1px solid #ddd;
+    }
+  </style>
+</head>
+<body>
+<div class="email-container">
+  <div class="header">
+    Drowniness Detection Customer Portal
+  </div>
+
+  <div class="content">
+    <p>Dear [[${fullName}]],</p>
+    <p>Your Email is: <span class="decoration">[[${email}]]</span></p>
+    <p>Your Account Status Changed: <span class="decoration">[[${status}]]</span></p>
+    <br>
+    <p>Regards,<br> Drowniness Detection Customer Portal</p>
+  </div>
+
+  <div class="footer">
+    &copy; 2025  Drowniness Detection Customer Portal. All rights reserved.<br>
+    If you did not request this code, please ignore this email.
+  </div>
+</div>
+</body>
+</html>

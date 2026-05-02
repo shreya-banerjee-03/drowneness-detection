@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="31f2df90-e35a-411b-aa4d-5e36055d21e4" name="Changes" comment="template changes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/drowniness/fullstackbackend/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/drowniness/fullstackbackend/reqres/DeleteUserReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/drowniness/fullstackbackend/reqres/GetUserReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/drowniness/fullstackbackend/reqres/UpdateUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/drowniness/fullstackbackend/reqres/VerifyUserReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/subscription-expired.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/user-verification.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewitharjun/fullstackbackend/FullstackBackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drowniness/fullstackbackend/FullstackBackendApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewitharjun/fullstackbackend/constants/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drowniness/fullstackbackend/constants/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewitharjun/fullstackbackend/constants/KeywordsAndConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drowniness/fullstackbackend/constants/KeywordsAndConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewitharjun/fullstackbackend/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drowniness/fullstackbackend/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewitharjun/fullstackbackend/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewitharjun/fullstackbackend/exception/UnAuthorizeAccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drowniness/fullstackbackend/exception/UnAuthorizeAccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewitharjun/fullstackbackend/exception/UnAuthorizeAccessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drowniness/fullstackbackend/exception/UnAuthorizeAccessException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewitharjun/fullstackbackend/exception/UserNotFoundAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drowniness/fullstackbackend/exception/UserNotFoundAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewitharjun/fullstackbackend/exception/UserNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drowniness/fullstackbackend/exception/UserNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewitharjun/fullstackbackend/model/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drowniness/fullstackbackend/model/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewitharjun/fullstackbackend/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drowniness/fullstackbackend/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewitharjun/fullstackbackend/repository/AdminRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drowniness/fullstackbackend/repository/AdminRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewitharjun/fullstackbackend/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drowniness/fullstackbackend/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewitharjun/fullstackbackend/reqres/UserCreateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drowniness/fullstackbackend/reqres/UserCreateRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewitharjun/fullstackbackend/scheduler/ScheduleMaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drowniness/fullstackbackend/scheduler/ScheduleMaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewitharjun/fullstackbackend/seeder/SeedAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drowniness/fullstackbackend/seeder/SeedAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewitharjun/fullstackbackend/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drowniness/fullstackbackend/service/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewitharjun/fullstackbackend/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drowniness/fullstackbackend/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewitharjun/fullstackbackend/utils/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drowniness/fullstackbackend/utils/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewitharjun/fullstackbackend/utils/MailConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drowniness/fullstackbackend/utils/MailConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codewitharjun/fullstackbackend/utils/VerifyAdminAccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drowniness/fullstackbackend/utils/VerifyAdminAccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/codewitharjun/fullstackbackend/FullstackBackendApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/drowniness/fullstackbackend/FullstackBackendApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fullstack-frontend-master/src/pages/Home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fullstack-frontend-master/src/pages/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/../fullstack-frontend-master/src/pages/Users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fullstack-frontend-master/src/users/AddUser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fullstack-frontend-master/src/users/EditUser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fullstack-frontend-master/src/users/ViewUser.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AlphaTanmoy&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AlphaTanmoy/Drowniness-Detection.git&quot;,
+    &quot;accountId&quot;: &quot;725d237f-7dca-4ee0-8de0-bbc71b77f1cf&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2yBXkDRoqgQQ5WICYbNlQnZi7nJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.FullstackBackendApplication.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/My_Projects/Drowniness-Detection/fullstack-backend-master"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="FullstackBackendApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codewitharjun.fullstackbackend.FullstackBackendApplication" />
+      <module name="fullstack-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codewitharjun.fullstackbackend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="fullstack-backend-master" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FullstackBackendApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31f2df90-e35a-411b-aa4d-5e36055d21e4" name="Changes" comment="" />
+      <created>1749309085242</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749309085242</updated>
+    </task>
+    <task id="LOCAL-00001" summary="changes">
+      <option name="closed" value="true" />
+      <created>1749366788442</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749366788442</updated>
+    </task>
+    <task id="LOCAL-00002" summary="template changes">
+      <option name="closed" value="true" />
+      <created>1749367094670</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1749367094670</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changes" />
+    <MESSAGE value="template changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="template changes" />
+  </component>
+</project>
